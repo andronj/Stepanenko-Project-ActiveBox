@@ -1,0 +1,24 @@
+{
+  "name": "stepanenko-project-activebox",
+  "version": "1.0.0",
+  "description": "FE33-onl",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andronj/Stepanenko-Project-ActiveBox.git"
+  },
+  "author": "Stepanenko Andrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andronj/Stepanenko-Project-ActiveBox/issues"
+  },
+  "homepage": "https://github.com/andronj/Stepanenko-Project-ActiveBox#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.1",
+    "parcel": "^2.6.1"
+  }
+}
