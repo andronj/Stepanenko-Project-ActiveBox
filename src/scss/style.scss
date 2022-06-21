@@ -6,6 +6,15 @@
     text-decoration: none;
 }
 
+
+@import '../scss/fonts.scss';
+@import '../scss/variables.scss';
+@import '../scss/mixins.scss';
+
+
+
+
+
 .container {
     position: relative;
     z-index: 11;
