@@ -10,10 +10,18 @@
 @import '../scss/fonts.scss';
 @import '../scss/variables.scss';
 @import '../scss/mixins.scss';
+@import '../scss/header.scss';
 
 
 
 
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body._lock {
+    overflow: hidden;
+}
 
 .container {
     position: relative;
@@ -21,5 +29,37 @@
     max-width: 1170px;
     padding: 0 15px;
     margin: auto;
+    @media (max-width:1200px){
+        max-width: 970px;   
+    }
+    @media (max-width:850px){
+        max-width: 670px;     
+    }
+    @media (max-width:479.98px){
+        max-width: none;
+    }
 }
 
+.btn {
+    font-family: 'Raleway';
+    display: block;
+    width: 370px;
+    padding: 20px;
+    background: $_red;
+    font-weight: 900;
+    font-size: $_24px;
+    line-height: 28px;
+    color: $_white;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #E71414;
+}
+
+.btn:active {
+    box-shadow: 4px 4px 30px #FF4343;
+}
