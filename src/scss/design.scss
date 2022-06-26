@@ -1,15 +1,21 @@
 .design {
     position: relative;
     padding: 50px 0;
+  
 }
 .design-row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.design-column{
+   
     
 }
 .design-item{
     position: relative;
+    
     &:hover{
         .design-item-title {
             position: absolute;
@@ -23,12 +29,6 @@
             top: 30%;
             left: 40%;
         }
-    }
-    &:active{
-    
-    background:rgba(185, 12, 12, 0.8);
-    
-
     }
 }
 .design-item:hover::after{
@@ -58,5 +58,4 @@
     color: $_white;
 }
 .design-item-img {
-    
 }

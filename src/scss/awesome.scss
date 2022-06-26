@@ -11,6 +11,15 @@
     width: 370px;
     margin-bottom: 85px;
 }
+.awesome-card:nth-child(n+4){
+    margin-bottom: 0px;
+    @media (max-width: 850px){
+        margin-bottom: 85px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
 .awesome-card-img {
     display: flex;
     justify-content: center;
