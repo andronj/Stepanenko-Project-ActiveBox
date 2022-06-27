@@ -1,7 +1,6 @@
 .design {
     position: relative;
     padding: 50px 0;
-  
 }
 .design-row {
     display: flex;
@@ -10,6 +9,7 @@
     justify-content: center;
 }
 .design-column{
+   width: 25%;
    
     
 }
@@ -57,5 +57,9 @@
     line-height: 28px;
     color: $_white;
 }
-.design-item-img {
+.design-item-img img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
 }
