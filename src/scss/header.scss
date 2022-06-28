@@ -73,6 +73,8 @@
 .header-menu-list-item a:hover {
     border-bottom: 3px solid $_grey;
     padding-bottom: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .header-menu-list-item a:active{
     color: $_red;
