@@ -37,24 +37,24 @@
     
 }
 .image-slider__body {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 100px 220px;
-    align-items: center;
-    justify-content: center;
+    flex: 1 1 50%;
     background-color: rgba(92, 50, 73, 1);
-    align-items:center;
-    width: 50%;
-    height: 490px;
+  
+}
+.image-slider__body__text {
+    padding: 116px 230px;
+    text-align: left;
 }
 .image-slider__body h3{
     font-family: 'Cardo';
-    text-align: left;
+    // text-align: left;
     font-weight: 400;
     font-size: $_36px;
     line-height: 49px;
     color: $_white;
     text-transform: capitalize;
+    text-align: center;
+    
 }
 
 .image-slider__body p {
@@ -62,7 +62,7 @@
     font-size: $_13px;
     text-transform: uppercase;
     color: $_white;
-    margin-right: 220px;
+    text-align: center;
 }
 // .image-slider__body__text {
 //     color: $_white;
