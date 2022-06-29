@@ -1,0 +1,47 @@
+.location {
+    padding: 70px 0px;
+    background-color: rgba(53, 60, 101, 1);
+}
+.location h3 {
+    font-weight: 700;
+    font-size: $_18px;
+    line-height: 21px;
+    color: $_white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.location p {
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    color: $_white;
+    text-align: center;
+}
+.location-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.location-addres {
+    width: 370px;
+    margin: 0 15px;
+}
+.location-menu{
+    text-align: center;
+}
+.location-contacts-links{
+    color: $_grey;
+    font-size: $_30px;
+    margin-left: 6px;
+}
+
+.location-icons {
+    width: 320px;
+    margin: 0 15px;
+}
+
+.location-activebox {
+    width: 370px;
+    margin: 0 15px;
+}
